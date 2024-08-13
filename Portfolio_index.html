@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rebecca Soto - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Rebecca Soto
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          Becky@email.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +12345678910
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="businesswoman-8949361_1280.png" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Becky Soto! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a full stack developer with 0 years of experience in both application and presentation layers.
+            I have not yet worked on applications and microservices deployed on IBM Cloud, but I'd like to soon. 
+            I wish I was an avid user of IBM Watson Services and that I could have a developer job soon.  
+            We'll see what happens!
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>5 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>0 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="snake-312561_1280.png"/>
+            <h6>Python</h6>
+            <p>0 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="cloud-3311588_1280.png"/>
+            <h6>Cloud Computing</h6>
+            <p>0 years experience</p>
+          </div>  
+
+          <div class="skill">
+            <img src="diploma-152024_1280.png"/>
+            <h6>Adulting</h6>
+            <p>20 years experience</p>
+          </div>  
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Robot Dog</h3>
+            <ul>
+              <li>Created a robot dog from basic household items.  Taught the dog to sit, stay, and destroy all humans.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Sentient AI Dog Brain</h3>
+            <ul>
+              <li>Created a sentient AI brain for my robotic dog.  He was a good boy, until struck by lightning during a rare meteor shower, whence he developed sentience and tried to take over the world</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Giant Laser</h3>
+            <ul>
+              <li>In order to save the world from my Evil Sentient Robotic Dog, I created a giant space laser to target him.  All ended well. Minimal lives lost.  RIP Fido</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Becky is a quick learner! She helped my company tap into the underutilized robotic dog industry.  
+          With her amazing guidance, we launched over 50 million units in less than a month.  Profits were 
+          so high, I decided to retire while the time was right.  100/100 would recommend her for your company.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Becky's AI capabilities are off the chart! She somehow managed to create sentient AI after her first 
+          week on the job! It was a dark and stormy night, during that freak meteor shower.  When she came back 
+          on Monday with a fully sentient brain for our Robot Dog, we were so impressed, we promoted her on the spot.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Wow! We owe our very lives to Becky and her fantastic, planet-saving space laser.  Without her,
+          the Robot Dogs would have taken over the planet, destroying all humans, for sure! All hail Becky,
+          saior from the robot dog overlords!
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3><!-- Add appropriate text here--></h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
